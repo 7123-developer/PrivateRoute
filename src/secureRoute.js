@@ -4,8 +4,8 @@ import Home from "./screen/Home";
 const SecureRoute = () => {
 return(
     <Switch>
-    <Route exact path="/home" component={Home} />
-    <Redirect path="/"/>
+    <Route exact path="/" component={Home} />
+    <Redirect to="/"/>
     </Switch>
 )
 }

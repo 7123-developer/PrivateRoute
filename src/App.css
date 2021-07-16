@@ -26,6 +26,13 @@
 .login-input-inner {
   padding: 25px;
 }
+.sign-up-text{
+  display: flex;
+justify-content: center;
+color: blue;
+text-decoration: underline;
+cursor : pointer
+}
 .home-container {
   display: flex;
   justify-content: center;

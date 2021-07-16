@@ -1,9 +1,9 @@
 
-const Input = ({label, name, onChange, value, type= "text"}) => {
+const Input = ({label, name, onChange, value, type= "text", disabled}) => {
     return(
         <div className="input-container">
                 <label>{label}</label>
-            <input type={type} value={value} name={name} onChange={onChange} />
+            <input type={type} disabled={disabled} value={value} name={name} onChange={onChange} />
             </div>
     )
 }

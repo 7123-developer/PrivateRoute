@@ -34,6 +34,7 @@ const SignUp = () => {
             <Input type="text-area" name="about" label="Abolut" valkue={userDetail.about} onChange={(e)=>onChangeInput(e)} />
             <Input type="submit" value="SignUp"  />
             </form>
+            <div className="sign-up-text" onClick={()=> history.push("/")} >Login</div>
         </div>
         </div>
         </div>
